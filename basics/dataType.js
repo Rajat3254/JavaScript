@@ -7,3 +7,16 @@
 // to get the type of the datatype we use typeof
 //ex: console.log(typeof null) object
 // console.log(type of undefined) undefined
+
+// Two types of Data Types :
+// 1.Primitive: Number,String ,Boolean ,null ,Undefined,Symbol,BigInt
+// 2.Non Primitive(reference Data Type) : Array,Objects,Function
+
+// For bigInt we add a n at last to the number
+//ex: 1234567n
+
+// for objects we use cury braces
+// ex: let object={
+    //name: "Rajat",
+    //age: 20,
+//}
