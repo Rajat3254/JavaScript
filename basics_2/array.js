@@ -12,3 +12,14 @@ const m2=new Array(1,2)
 
 //.unshift() se ham element at start dal dedete hai lekin baki sare shift kar dete hai aage
 // .shift() me koi argument nhi dalte hai lekin isse first element remove ho jata hai aur sab aage shift ho jate hai
+
+
+//agar hame do aaray ko ek banana hai too use concat and spread operater
+// concat ek new array deta hai so hame usee store karna hoga
+newA=Array.concat(arr);
+
+// spread means glass ko drop karo sab bikhar jayega
+// new_a=[...marvel,...dc]
+//... is spread opretor 
+
+// ek aur hota hai .flat(Infinity) is ki help se ham array ke andar array ke andar array bhi hoga to bhi sab thik kar deta hai aur ha ye bhi new array deta hai
