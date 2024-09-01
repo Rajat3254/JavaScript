@@ -12,3 +12,9 @@ function check(...num){
     return num
 }
 console.log(check(2,3,5,4));
+
+// another way to declare a function is
+// const add=function(num){
+//   return num+2
+// }
+// add(3); call ham ese karenge kyo ki name nhi diye hai function ko aur variable me store kiye hai to isliye ye kar rhe hai
