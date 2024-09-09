@@ -8,4 +8,10 @@
 // documnet.querySelectorAll() se hame saari ek type ke element mil jaate hai aur woh present rhete hai NodeList ke form me ye array jesa hota hai but 
 // array nhi hai so isme sirf forEach loop use kar sakte hai aur getting element is same as the way we select the element in array 
 
-// document.getElementsByClassName() karne se hame us particular name wali saari class mil jati hai aur woh HTMLcollections me store hoti hai jisse ham convert kar dete hai array by using Array.from(CollectionKaname jisme store kiye ho) 
+// document.getElementsByClassName() karne se hame us particular name wali saari class mil jati hai aur woh HTMLcollections me store hoti hai jisse ham convert kar dete hai array by using Array.from(CollectionKaname jisme store kiye ho)
+
+// agar div ke ander div hai aur maine parent div ko select kiya hai using document.querySelector('') then woh saare child bhi contain karega 
+// lekin agar hamne usse kisi variable me store kiya hai aur variableName.children print karenge to woh collectionofHtml dega af the child div 
+
+// element crete karne ke baad class deneke liye use hota hia divName.className="rwnt" ham element create to karlete hai lekin woh visible nhi hota hai
+// woh karane ke liye hame usse attach karna hoga using documnet.body.appendChild(divName)
