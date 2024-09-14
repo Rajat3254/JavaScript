@@ -14,3 +14,7 @@
 //     elementName.innerText=date.toLocaleTimeString();
 //     // iske help se jo date aayega uska time bas dikhega
 // },1000)
+
+// project 3 : Guess the number game
+// If a form tag is used then on click event the values can go to the database so to prevent it we write: e.preventDefault()
+// hame hamesha value parse karni padegi form tag se kyoki woh String deta hai
